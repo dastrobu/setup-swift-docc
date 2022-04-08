@@ -1,0 +1,27 @@
+name: 'test'
+on: # rebuild any PRs and main branch changes
+  pull_request:
+  push:
+    branches:
+      - main
+      - 'releases/*'
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          mkdir DemoSwiftPackage
+          cd DemoSwiftPackage
+          swift package init
+          mkdir Sources/DemoSwiftPackage/DemoSwiftPackage.docc
+          swift build --target DemoSwiftPackage -Xswiftc -emit-symbol-graph -Xswiftc -emit-symbol-graph-dir -Xswiftc .build
+      - uses: ./
+      - run: docc convert
+          DemoSwiftPackage/Sources/DemoSwiftPackage/DemoSwiftPackage.docc
+          --fallback-display-name DemoSwiftPackage
+          --fallback-bundle-identifier DemoSwiftPackage
+          --fallback-bundle-version 1
+          --additional-symbol-graph-dir DemoSwiftPackage/.build
+          --output-path docs

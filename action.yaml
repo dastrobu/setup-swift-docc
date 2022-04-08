@@ -1,0 +1,25 @@
+name: docc
+description:
+  Generate Swift Documentation with help of DocC
+author:
+  dastrobu
+runs:
+  using: composite
+  steps:
+    - name: 'Setup docc'
+      shell: bash
+      run: dirname $(xcrun --find docc) >> $GITHUB_PATH
+    - name: 'Check docc is in path'
+      shell: bash
+      run: command -v docc
+    - name: 'Setup default DOCC_HTML_DIR'
+      shell: bash
+      run: |
+        if [[ -e "$DOCC_HTML_DIR" ]]; then
+          echo "$(dirname $(which docc))/../share/docc/render" >> $DOCC_HTML_DIR
+        fi
+        echo "DOCC_HTML_DIR=$DOCC_HTML_DIR"
+        if [[ !test -e "$DOCC_HTML_DIR" ]]; then
+          echo "DOCC_HTML_DIR points to a non existing path, please make sure it exists."
+          exit 1
+        fi

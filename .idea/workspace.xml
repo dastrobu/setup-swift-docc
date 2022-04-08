@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17013ff5-b692-4481-a357-d5641e652deb" name="Changes" comment="" />
+    <list id="701fdf78-2716-40e0-8413-ef325427210e" name="docs" comment="add generated docs" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hosting-base-path" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27HtpT954LSt7o5IWRbMz1ITmuw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JSON" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="swift-docc" />
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="swift-docc-action.main.test runs" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/main.test.ts" />
+      <test-names>
+        <test-name value="swift-docc-action" />
+        <test-name value="main" />
+        <test-name value="test runs" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.swift-docc-action.main.test runs" />
+        <item itemvalue="Jest.swift-docc-action.main.test runs" />
+        <item itemvalue="Jest.swift-docc-action.main.test runs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17013ff5-b692-4481-a357-d5641e652deb" name="Changes" comment="" />
+      <changelist id="701fdf78-2716-40e0-8413-ef325427210e" name="docs" comment="" />
+      <created>1648989022774</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648989022774</updated>
+      <workItem from="1648989027290" duration="13791000" />
+      <workItem from="1649002978222" duration="16690000" />
+    </task>
+    <task id="LOCAL-00001" summary="generate docs with docc">
+      <created>1649002830957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649002830957</updated>
+    </task>
+    <task id="LOCAL-00002" summary="generate docs with docc">
+      <created>1649003301438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649003301438</updated>
+    </task>
+    <task id="LOCAL-00003" summary="generate docs with docc">
+      <created>1649003374274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649003374274</updated>
+    </task>
+    <task id="LOCAL-00004" summary="generate docs with docc">
+      <created>1649003491673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649003491673</updated>
+    </task>
+    <task id="LOCAL-00005" summary="generate docs with docc">
+      <created>1649003655707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649003655707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="generate docs with docc">
+      <created>1649003888958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649003888958</updated>
+    </task>
+    <task id="LOCAL-00007" summary="generate docs with docc">
+      <created>1649004282092</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649004282092</updated>
+    </task>
+    <task id="LOCAL-00008" summary="generate docs with docc">
+      <created>1649004333221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649004333221</updated>
+    </task>
+    <task id="LOCAL-00009" summary="generate docs with docc">
+      <created>1649004528315</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649004528315</updated>
+    </task>
+    <task id="LOCAL-00010" summary="generate docs with docc">
+      <created>1649005215445</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649005215445</updated>
+    </task>
+    <task id="LOCAL-00011" summary="generate docs with docc">
+      <created>1649005464169</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649005464169</updated>
+    </task>
+    <task id="LOCAL-00012" summary="generate docs with docc">
+      <created>1649006598320</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1649006598320</updated>
+    </task>
+    <task id="LOCAL-00013" summary="generate docs with docc">
+      <created>1649007238314</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649007238314</updated>
+    </task>
+    <task id="LOCAL-00014" summary="generate docs with docc">
+      <created>1649007662569</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1649007662569</updated>
+    </task>
+    <task id="LOCAL-00015" summary="generate docs with docc">
+      <created>1649007902426</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649007902426</updated>
+    </task>
+    <task id="LOCAL-00016" summary="generate docs with docc">
+      <created>1649008138386</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649008138386</updated>
+    </task>
+    <task id="LOCAL-00017" summary="generate docs with docc">
+      <created>1649009411935</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649009411935</updated>
+    </task>
+    <task id="LOCAL-00018" summary="generate docs with docc">
+      <created>1649010025980</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1649010025980</updated>
+    </task>
+    <task id="LOCAL-00019" summary="generate docs with docc">
+      <created>1649010552739</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1649010552739</updated>
+    </task>
+    <task id="LOCAL-00020" summary="get branch if not PR">
+      <created>1649011250948</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1649011250948</updated>
+    </task>
+    <task id="LOCAL-00021" summary="get branch if not PR">
+      <created>1649011824024</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1649011824024</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add generated docs">
+      <created>1649012424872</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1649012424872</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add content">
+      <created>1649012896989</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1649012896989</updated>
+    </task>
+    <task id="LOCAL-00024" summary="handle branches and PRs in a different way">
+      <created>1649013188372</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1649013188372</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update generated docs">
+      <created>1649013436107</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1649013436107</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update generated docs">
+      <created>1649013550509</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1649013550509</updated>
+    </task>
+    <task id="LOCAL-00027" summary="use --transform-for-static-hosting">
+      <created>1649014851110</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1649014851110</updated>
+    </task>
+    <task id="LOCAL-00028" summary="use --transform-for-static-hosting">
+      <created>1649014943406</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1649014943406</updated>
+    </task>
+    <task id="LOCAL-00029" summary="add demo URL to README.md">
+      <created>1649015248935</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1649015248935</updated>
+    </task>
+    <task id="LOCAL-00030" summary="initial commit.">
+      <created>1649434968839</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1649434968839</updated>
+    </task>
+    <task id="LOCAL-00031" summary="initial commit.">
+      <created>1649435083858</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1649435083858</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="generate docs with docc" />
+    <MESSAGE value="get branch if not PR" />
+    <MESSAGE value="add generated docs" />
+    <MESSAGE value="add content" />
+    <MESSAGE value="handle branches and PRs in a different way" />
+    <MESSAGE value="update generated docs" />
+    <MESSAGE value="use --transform-for-static-hosting" />
+    <MESSAGE value="add demo URL to README.md" />
+    <MESSAGE value="initial commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/code/swift-docc-action/lib/main.js</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/code/swift-docc-action/lib/main.js</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
