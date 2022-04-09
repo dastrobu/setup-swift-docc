@@ -1,4 +1,4 @@
-name: docc
+name: setup-swift-docc
 description:
   Generate Swift Documentation with help of DocC
 author:
