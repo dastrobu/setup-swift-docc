@@ -7,7 +7,7 @@
 To generate nice documentation pages from a Swift package with help of DocC, this action can be used as follows
 
 ```yaml
-- uses: dastrobu/setup-swift-docc
+- uses: dastrobu/setup-swift-docc@v0
 - run: docc convert
     DemoSwiftPackage/Sources/DemoSwiftPackage/DemoSwiftPackage.docc
     --fallback-display-name DemoSwiftPackage

@@ -15,11 +15,12 @@ runs:
     - name: 'Setup default DOCC_HTML_DIR'
       shell: bash
       run: |
-        if [[ -e "$DOCC_HTML_DIR" ]]; then
-          echo "$(dirname $(which docc))/../share/docc/render" >> $DOCC_HTML_DIR
+        if [[ -z "$DOCC_HTML_DIR" ]]; then
+          export "DOCC_HTML_DIR=$(dirname $(which docc))/../share/docc/render"
+          echo "DOCC_HTML_DIR=$DOCC_HTML_DIR" >> $GITHUB_ENV
         fi
         echo "DOCC_HTML_DIR=$DOCC_HTML_DIR"
-        if [[ !test -e "$DOCC_HTML_DIR" ]]; then
-          echo "DOCC_HTML_DIR points to a non existing path, please make sure it exists."
+        if [[ ! -d "$DOCC_HTML_DIR" ]]; then
+          echo "DOCC_HTML_DIR points to a non existing directory, please make sure it exists."
           exit 1
         fi

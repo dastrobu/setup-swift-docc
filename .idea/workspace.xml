@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17013ff5-b692-4481-a357-d5641e652deb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/action.yaml" afterDir="false" />
     </list>
     <list id="701fdf78-2716-40e0-8413-ef325427210e" name="docs" comment="add generated docs" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,10 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -111,6 +113,7 @@
       <updated>1648989022774</updated>
       <workItem from="1648989027290" duration="13791000" />
       <workItem from="1649002978222" duration="17212000" />
+      <workItem from="1649485842539" duration="1109000" />
     </task>
     <task id="LOCAL-00001" summary="generate docs with docc">
       <created>1649002830957</created>
@@ -329,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649435083858</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add basic docs">
+      <created>1649486134234</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1649486134234</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +367,8 @@
     <MESSAGE value="use --transform-for-static-hosting" />
     <MESSAGE value="add demo URL to README.md" />
     <MESSAGE value="initial commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit." />
+    <MESSAGE value="add basic docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
