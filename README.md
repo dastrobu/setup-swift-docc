@@ -1,6 +1,20 @@
 <p align="center">
-  <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/dastrobu/swift-docc-action/workflows/test/badge.svg"></a>
+  <a href="https://github.com/dastrobu/setup-swift-docc/"><img alt="setup-swift-docc status" src="https://github.com/dastrobu/setup-swift-docc/workflows/test/badge.svg"></a>
 </p>
 
-# Generate Documentation
+# Setup the [Swift DocC](https://www.swift.org/documentation/docc/) Compiler
 
+To generate nice documentation pages from a Swift package with help of DocC, this action can be used as follows
+
+```yaml
+- uses: dastrobu/setup-swift-docc
+- run: docc convert
+    DemoSwiftPackage/Sources/DemoSwiftPackage/DemoSwiftPackage.docc
+    --fallback-display-name DemoSwiftPackage
+    --fallback-bundle-identifier DemoSwiftPackage
+    --fallback-bundle-version 1
+    --additional-symbol-graph-dir DemoSwiftPackage/.build
+    --output-path docs
+```
+
+for a full example, see [test.yaml](.github/workflows/test.yaml).
